@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Panchayat Data Visualization Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Climate Panchayat Data Visualization</h1>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="/map.html">Map</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h2>Welcome to the Climate Panchayat Data Visualization Web App</h2>
+        <div class="carousel">
+            <img class="carousel-image" src="/images/655f089b1e818d76353a70fb_Group of individuals in traditional costumes from different states of India.webp" alt="Image 1">
+            <img class="carousel-image" src="/images/india-1453721_640.webp" alt="Image 2" style="display:none;">
+            <img class="carousel-image" src="/images/sun-temple-at-orrisa-india.webp" alt="Image 3" style="display:none;">
+        </div>
+        <p>
+            This web application allows users to access environmental index data and view GIS maps representing 
+            various environmental issues in Odisha's districts.
+        </p>
+        <p>
+            Explore interactive maps to visualize district-wise data for selected indexes, with color-coded maps 
+            and dynamic legends.
+        </p>
+        <button class="carousel-button" id="prev">❮</button>
+        <button class="carousel-button" id="next">❯</button>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About the Project</h2>
+            <p>
+                This project aims to raise awareness about environmental issues through accessible data visualization.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                If you have any questions, please reach out to us at: 
+                <a href="mailto:info@climatepanchayat.com">info@climatepanchayat.com</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Climate Panchayat Data Visualization Team. All rights reserved.</p>
+    </footer>
+    <script src="carousel.js"></script>
+</body>
+</html>
